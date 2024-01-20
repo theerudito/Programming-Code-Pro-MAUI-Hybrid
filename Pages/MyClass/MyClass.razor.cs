@@ -69,8 +69,8 @@ namespace ProgrammingCodePro.Pages.MyClass
 
         private void OpenBrowser(string url)
         {
-            if (string.IsNullOrEmpty(url)) return;
-            LauncherManager.OpenBrowser(url);
+            //if (string.IsNullOrEmpty(url)) return;
+            //LauncherManager.OpenBrowser(url);
         }
     }
 }

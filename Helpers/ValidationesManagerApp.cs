@@ -30,27 +30,27 @@ namespace ProgrammingCodePro.Helpers
                 }
             }
 
-            if (myValue.Email.Length < 10 || myValue.Email.Length > 20)
+            if (myValue.Email.Length < 10 || myValue.Email.Length > 50)
             {
                 if (language == "EN")
                 {
-                    return "The email must be between 10 and 20 characters";
+                    return "The email must be between 10 and 50 characters";
                 }
                 else
                 {
-                    return "El Correo electrónico debe tener entre 10 y 20 caracteres";
+                    return "El Correo electrónico debe tener entre 10 y 50 caracteres";
                 }
             }
 
-            if (myValue.Password.Length < 5 || myValue.Password.Length > 10)
+            if (myValue.Password.Length < 5 || myValue.Password.Length > 15)
             {
                 if (language == "EN")
                 {
-                    return "The password must be between 5 and 10 characters";
+                    return "The password must be between 5 and 15 characters";
                 }
                 else
                 {
-                    return "La Contraseña debe tener entre 5 y 10 caracteres";
+                    return "La Contraseña debe tener entre 5 y 15 caracteres";
                 }
             }
             return "OK";
